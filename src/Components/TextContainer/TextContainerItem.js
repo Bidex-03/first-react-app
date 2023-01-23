@@ -10,6 +10,9 @@ const TextContainer = (props) => {
 //     setHeading(
 //       "A town hall different from bala blu, blue blu bulaba. broom broom broom brooooooooom. Bala blu blue blu bulaba."
 //     );
+  const changeText = () => {
+    
+  };
 
   return (
     <Card className="container">
