@@ -1,0 +1,19 @@
+/* .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5rem;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 5rem;
+    text-align: center;
+} */
+
+.container{
+    padding: 1rem;
+    background-color: rgb(31, 31, 31);
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+}

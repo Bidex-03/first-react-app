@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Container from "./Components/TextContainer/Container";
+import TextContainerItem from "./Components/TextContainer/TextContainerItem";
 
 function App() {
+  const heading = [
+    {
+      id: "e1",
+      title:
+        "The farmers will make more money. Your lunch will not be imported, cassava garri ewa and ehhh ehhhhnn. The farmer will make money, the dinner would be cassava eba ewa and everything.",
+    },
+    {
+      id: "e2",
+      title:
+        "A town hall different from bala blu, blue blu bulaba. broom broom broom brooooooooom. Bala blu blue blu bulaba.",
+    },
+  ];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <TextContainerItem items={heading} />
     </div>
   );
 }
