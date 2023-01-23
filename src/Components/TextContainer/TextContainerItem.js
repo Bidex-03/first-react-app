@@ -17,12 +17,12 @@ const TextContainer = (props) => {
   return (
     <Card className="container">
       <Card className="inner-container">
-        {/* <h2>
+        <h2>
           The farmers will make more money. Your lunch will not be imported,
           cassava garri ewa and ehhh ehhhhnn. The farmer will make money, the
           dinner would be cassava eba ewa and everything.
-        </h2> */}
-        <h2>{props.heading}</h2>
+        </h2>
+        {/* <h2>{props.heading}</h2> */}
       </Card>
       <button className="button" onClick={changeText}>
         Change Text
